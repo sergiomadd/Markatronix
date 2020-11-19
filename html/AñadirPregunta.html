@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Añadir una pregunta</title>
+		<meta charset="UTF-8">
+		<h1>Añade una pregunta.</h1>
+		<script type="text/javascript" src="validacion.js"></script>
+	</head>
+	<body>
+		<form id="pregunta" method="post" action="AñadirPregunta.php" enctype="multipart/form-data">
+			Nombre de la marca*:
+			<input type="text" id="marca" name="marca" required="true"><br>
+			Pista:
+			<input type="text" id="marca" name="pista" required="true"><br>
+			Imagen*:
+			<input type="file" id="imagen" accept="image/*" name="imagen">
+			Los campos en * son obligatorios.
+  			<input type="submit" id="enviar">
+		</form>
+	</body>
+</html>
