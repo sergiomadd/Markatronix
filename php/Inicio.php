@@ -22,7 +22,7 @@
 		<?php
 			if(isset($_REQUEST['nombre'])) {
 				$_SESSION['Nombre']=$_REQUEST['nombre'];
-				echo "<script> alert(\"¡Preparate para jugar!\"); document.location.href='Juego.php'; </script>";
+				echo "<script> alert(\"¡Preparate para jugar!\"); document.location.href='Jugar.php'; </script>";
 			}
 		?>
 	</body>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preguntas ultimo=0>
-	<pregunta id=0>
+<preguntas ultimo="6">
+	<pregunta id="0">
 		<marca>
 			nike
 		</marca>
@@ -8,4 +8,8 @@
 			zapatillas
 		</pista>
 	</pregunta>
-</preguntas>
+	<pregunta id="1">
+		<marca>nike</marca>
+		<pista>cani</pista>
+	</pregunta>
+<pregunta id="2"><marca>nike</marca><pista>cani</pista></pregunta><pregunta id="3"><marca>nike</marca><pista>cani</pista></pregunta><pregunta id="4"><marca>nike</marca><pista>cani</pista></pregunta><pregunta id="5"><marca>nike</marca><pista>cani</pista></pregunta><pregunta id="6"><marca>nike</marca><pista>cani</pista></pregunta></preguntas>
