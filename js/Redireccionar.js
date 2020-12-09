@@ -1,13 +1,13 @@
 function redireccionar(pagina)
 {
-  console.log("Hola");
-  console.log(document.getElementById("nombre").value);
-  if(document.getElementById("nombre").length > 0)
+  var nombre= document.getElementById("nombre").value;
+  if(nombre.length == 0)
   {
-    window.location = pagina;
+    alert("¡Falta poner el nombre!");
   }
   else
   {
-      console.log("poner nombre");
+    crearsesion(nombre);
+    window.location = pagina;
   }
 }

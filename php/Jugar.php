@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php session_start();
+	echo'<script>alert("'.$_SESSION['nombre'].'");</script>';
+?>
 <html>
 	<head>
 		<title></title>
@@ -6,6 +9,8 @@
 		<link rel="stylesheet" href="../css/estilo.css">
 	</head>
 	<body>
+		<div id="creacion_sesion">
+		</div>
 		<div>
 			<h1>Markatronix</h1>
 			<img src="" id="imagen" width="400" height="400"> <br>

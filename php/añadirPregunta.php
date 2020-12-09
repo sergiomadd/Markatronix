@@ -65,7 +65,6 @@
       echo "Error al insertar en la BD";
       die("Error: " . mysqli_error($mysql));
     }
-    echo "Pregunta añadida correctamente <br>";
   }
   else
   {
