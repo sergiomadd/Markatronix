@@ -6,6 +6,7 @@
 		<meta charset="UTF-8">
 		<h1>Markatronix</h1>
 		<link rel="stylesheet" href="../css/estilo.css">
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script type="text/javascript" src="../js/Gestion-sesion.js"></script>
 		<script type="text/javascript" src="../js/CrearSesion.js"></script>
 		<script type="text/javascript" src="../js/Redireccionar.js"></script>

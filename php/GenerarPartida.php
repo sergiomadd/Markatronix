@@ -1,6 +1,6 @@
 <?php
   $visitadas = array();
-
+  echo "<script>alert('GENERANDO PARTIDA');</script>";
   $preguntasPartida = simplexml_load_file("../xml/Partida.xml");
   $preguntasGeneral = simplexml_load_file("../xml/Preguntas.xml");
 
@@ -18,7 +18,6 @@
       array_push($visitadas, $id);
 
       $pregunta = $preguntasPartida->addChild('pregunta');
-      $preguntasPartida
       $pregunta->addAttribute('id', $id);
       $pregunta->addChild("marca", $preguntasGeneral->pregunta[$id]->marca);
       $pregunta->addChild("pista", $preguntasGeneral->pregunta[$id]->pista);

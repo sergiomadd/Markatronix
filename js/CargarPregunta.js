@@ -1,17 +1,21 @@
-XMLHttpRequestObject = new XMLHttpRequest();
-XMLHttpRequestObject.onreadystatechange = function()
-{
-  if (XMLHttpRequestObject.readyState == 4 )
-  {
-    var xml = XMLHttpRequestObject.responseXML;
-    var marca = xml.getElementsByTagName("marca");
-    var pista = xml.getElementsByTagName("pista");
-    var imagen = xml.getElementsByTagName("imagen");
-  }
-}
-
-function cargarPregunta()
-{
-  XMLHttpRequestObject.open("POST", "../php/añadirPregunta.php");
-  XMLHttpRequestObject.send("?marca="+marca+"&pista="+pista+"&imagen="+imagen);
-}
+$(document).ready(function() {
+  $("#enviar").click(function(){
+    var form = $('#formulario')[0];
+    var formData = new FormData(form);
+    $.ajax({
+       url : '../php/AñadirPregunta.php',
+       type : 'POST',
+       data: formData,
+       processData: false,
+       contentType: false,
+       success : function (response)
+       {
+          document.getElementById("insercion").innerHTML = response;
+       },
+       error : function ()
+       {
+         document.getElementById("insercion").innerHTML = "Error al añadir la pregunta :(";
+       }
+     });
+  });
+});

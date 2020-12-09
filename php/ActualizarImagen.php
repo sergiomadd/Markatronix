@@ -1,4 +1,5 @@
 <?php
+  echo "<script>alert('ACTUALIZANDO IMAGEN');</script>";
   include 'DBConfig.php';
   $mysql = mysqli_connect($servername, $username, $password, $database);
   if(!$mysql)
@@ -10,7 +11,8 @@
 
   $preguntasPartida = simplexml_load_file("../xml/Partida.xml");
   $id = $preguntasPartida['actual'];
-  $newPregunta = $preguntasPartida->pregunta[$id]->next_sibling();
+  $newPregunta=$preguntasPartida->marca;
+  $newPregunta = $preguntasPartida->pregunta[$id];
   $newId = $newPregunta['id'];
 
   $sql = "SELECT * from imagenes where id=".$newId;

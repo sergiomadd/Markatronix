@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preguntas ultimo="6">
+<preguntas ultimo="8">
 	<pregunta id="1">
 		<marca>
 			nike
@@ -22,4 +22,4 @@
 		<marca>asfa</marca>
 		<pista>asfasf</pista>
 	</pregunta>
-<pregunta id="6"><marca>aoisnf</marca><pista>sodinf</pista></pregunta></preguntas>
+<pregunta id="6"><marca>aoisnf</marca><pista>sodinf</pista></pregunta><pregunta id="7"><marca>aisdnvoasv</marca><pista>sodinfakddfnoia</pista></pregunta><pregunta id="8"><marca>nike</marca><pista>cani</pista></pregunta></preguntas>
