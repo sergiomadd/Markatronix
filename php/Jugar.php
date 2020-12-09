@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <?php session_start();
-	echo'<script>alert("'.$_SESSION['nombre'].'");</script>';
 ?>
 <html>
 	<head>
 		<title></title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="../css/estilo.css">
+		<script type="text/javascript" src="../js/GenerarPartida.js"></script>
 	</head>
 	<body>
 		<div id="creacion_sesion">
