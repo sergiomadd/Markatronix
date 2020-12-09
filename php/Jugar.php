@@ -3,23 +3,12 @@
 	<head>
 		<title></title>
 		<meta charset="UTF-8">
-		<style>
-			div
-			{
-				margin: auto;
-				width: 30%;
-				border: 10px solid black;
-				padding: 1px;
-				text-align: center;
-			}
-		</style>
+		<link rel="stylesheet" href="../css/estilo.css">
 	</head>
 	<body>
 		<div>
 			<h1>Markatronix</h1>
-			<div id="imagen">
-			<img src="" width="400" height="400"> <br>
-			</div>
+			<img src="" id="imagen" width="400" height="400"> <br>
 			Nombre de la marca:
 			<input type="text" id="respuesta" name="respuesta"><br><br>
 

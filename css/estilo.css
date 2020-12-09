@@ -1,0 +1,23 @@
+h1
+{
+  text-align: center;
+}
+body
+{
+  background-color: lightgrey;
+  text-align: center;
+}
+.boton
+{
+  background-color: lightblue;
+}
+
+
+
+/*JUGAR*/
+#imagen
+{
+  margin: auto;
+  border: 3px solid dimgrey;
+  text-align: center;
+}
