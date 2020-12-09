@@ -2,6 +2,7 @@
   $id = 0;
   //Validar el formulario
   //marca imagen
+  echo "hola";
   $formularioCorrecto = true;
   if(!isset($_POST['marca']))
   {
@@ -32,7 +33,6 @@
     }
     else
     {
-      echo("<script> alert ('Funciona xml')</script>");
       $pregunta = $preguntas->addChild('pregunta');
       $id = $preguntas['ultimo'];
       $id = $id + 1;
@@ -65,6 +65,7 @@
       echo "Error al insertar en la BD";
       die("Error: " . mysqli_error($mysql));
     }
+    echo "Pregunta añadida correctamente!";
   }
   else
   {

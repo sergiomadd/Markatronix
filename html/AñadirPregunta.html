@@ -4,11 +4,12 @@
 		<title>Añadir una pregunta</title>
 		<meta charset="UTF-8">
 		<h1>Añade una pregunta.</h1>
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/CargarPregunta.js"></script>
 		<link rel="stylesheet" href="../css/estilo.css">
-		<script type="text/javascript" src="validacion.js"></script>
 	</head>
 	<body>
-		<form id="pregunta" method="post" action="../php/AñadirPregunta.php" enctype="multipart/form-data">
+		<form id="formulario" enctype="multipart/form-data">
 			Nombre de la marca*:
 			<input type="text" id="marca" name="marca" required="true"><br><br>
 			Pista:
@@ -16,7 +17,8 @@
 			Imagen*:
 			<input type="file" id="imagen" accept="image/*" name="imagen" required="true"><br><br>
 			Los campos en * son obligatorios. <br><br>
-  		<input type="submit" id="enviar">
+  		<input type="button" id="enviar" value="Añadir">
+			<div id="insercion"></div>
 		</form>
 	</body>
 </html>
