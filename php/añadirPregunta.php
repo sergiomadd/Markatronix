@@ -1,4 +1,5 @@
 <?php
+  session_start();
   $id = 0;
   //Validar el formulario
   //marca imagen

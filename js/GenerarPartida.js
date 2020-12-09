@@ -1,10 +1,11 @@
 $(document).ready(function()
 {
+  alert("COSA DE GENERAR");
     $.ajax({
-        type: "GET",
+        type: "POST",
         url: "../php/GenerarPartida.php",
-        success : function() {
-            console.log("ey");
+        success : function(data) {
+            console.log(data);
         },
         error : function ()
         {
