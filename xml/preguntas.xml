@@ -1,49 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preguntas ultimo="11">
+<preguntas ultimo="6">
 	<pregunta id="1">
-		<marca>
-			nike
-		</marca>
-		<pista>
-			zapatillas
-		</pista>
-	</pregunta>
+		<marca>nike</marca><pista/></pregunta>
 	<pregunta id="2">
-		<marca>adidas</marca><pista/></pregunta>
+		<marca>windows</marca><pista/></pregunta>
 	<pregunta id="3">
-		<marca>nike</marca>
-		<pista>osas</pista>
-	</pregunta>
+		<marca>android</marca><pista/></pregunta>
 	<pregunta id="4">
-		<marca>asdfasf</marca>
-		<pista>asgag</pista>
-	</pregunta>
+		<marca>starbucks</marca><pista/></pregunta>
 	<pregunta id="5">
-		<marca>asfa</marca>
-		<pista>asfasf</pista>
-	</pregunta>
+		<marca>playstation</marca><pista/></pregunta>
 	<pregunta id="6">
-		<marca>aoisnf</marca>
-		<pista>sodinf</pista>
-	</pregunta>
-	<pregunta id="7">
-		<marca>aisdnvoasv</marca>
-		<pista>sodinfakddfnoia</pista>
-	</pregunta>
-	<pregunta id="8">
-		<marca>nike</marca>
-		<pista>cani</pista>
-	</pregunta>
-	<pregunta id="9">
-		<marca>nisdgke</marca>
-		<pista>sdg</pista>
-	</pregunta>
-	<pregunta id="10">
-		<marca>nisdgke</marca>
-		<pista>csdfani</pista>
-	</pregunta>
-	<pregunta id="11">
-		<marca>ef</marca>
-		<pista>cwdfani</pista>
-	</pregunta>
+		<marca>shell</marca><pista/></pregunta>
 </preguntas>

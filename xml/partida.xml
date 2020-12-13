@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preguntas actual="0">
 
-  <pregunta id="1">
-    <marca>
-      nike
-    </marca>
-    <pista>
-      zapatillas
-    </pista>
-  </pregunta>
-  <pregunta id="4">
-    <marca>asdfasf</marca>
-    <pista>asgag</pista>
-  </pregunta>
-  <pregunta id="6">
-    <marca>aoisnf</marca>
-    <pista>sodinf</pista>
-  </pregunta>
-  <pregunta id="2">
-    <marca>adidas</marca><pista/></pregunta>
-  <pregunta id="7">
-    <marca>aisdnvoasv</marca>
-    <pista>sodinfakddfnoia</pista>
-  </pregunta>
+  
+  
+  
+  
+  
 </preguntas>

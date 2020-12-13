@@ -1,18 +1,16 @@
 $(document).ready(function()
 {
+  console.log('ready');
       cargarImagen();
+
 });
 
 function cargarImagen()
 {
-  var form = $('#formulario')[0];
-  var formData = new FormData(form);
+  console.log('cargando imagen');
   $.ajax({
      url : '../php/ActualizarImagen.php',
      type : 'POST',
-     data: formData,
-     processData: false,
-     contentType: false,
      success : function (response)
      {
         document.getElementById("imagenDiv").innerHTML = response;

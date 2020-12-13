@@ -10,6 +10,7 @@
 		<script type="text/javascript" src="../js/Gestion-sesion.js"></script>
 		<script type="text/javascript" src="../js/CrearSesion.js"></script>
 		<script type="text/javascript" src="../js/Redireccionar.js"></script>
+		<script type="text/javascript" src="../js/EliminarPartida.js"></script>
 	</head>
 	<body>
 		<div id="gestion-nombre">
