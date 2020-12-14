@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<preguntas ultimo="21">
+<preguntas ultimo="15">
   <pregunta id="1">
     <marca>windows</marca>
     <pista>Empieza por: wi</pista>
@@ -60,12 +60,4 @@
     <marca>tesla</marca>
     <pista>Empieza por: te</pista>
   </pregunta>
-  <pregunta id="16" autor="">
-    <marca>nike</marca>
-    <pista>cani</pista>
-  </pregunta>
-  <pregunta id="17" autor="sergio">
-    <marca>nike</marca>
-    <pista>cani</pista>
-  </pregunta>
-<pregunta id="18" autor="sergio"><marca>test</marca><pista>pista test</pista></pregunta><pregunta id="19" autor="sergio"><marca>test</marca><pista>pista test</pista></pregunta><pregunta id="20" autor=""><marca>test2</marca><pista>pista test2</pista></pregunta><pregunta id="21" autor="sergio"><marca>test</marca><pista>test</pista></pregunta></preguntas>
+</preguntas>
