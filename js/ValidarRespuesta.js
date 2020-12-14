@@ -38,7 +38,7 @@ function validarRespuesta()
      },
      error : function ()
      {
-       document.getElementById("respuestaDiv").innerHTML = "Error al validar la respues";
+       document.getElementById("respuestaDiv").innerHTML = "Error al validar la respuesta";
      }
    });
 }
