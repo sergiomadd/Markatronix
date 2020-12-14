@@ -3,19 +3,23 @@ XMLHttpRequestObject.onreadystatechange = function()
 {
   if (XMLHttpRequestObject.readyState == 4)
   {
-    var xml = XMLHttpRequestObject.responseXML;
-    var pista = xml.getElementsByTagName("pista");
-    if (pista == "")
+    var xmlDoc = XMLHttpRequestObject.responseXML;
+    var preguntas = xmlDoc.getElementsByTagName('pregunta');
+    var pista = "";
+    var actual = xmlDoc.getElementsByTagName('preguntas')[0].getAttribute('actual');
+    for(i=0;i<preguntas.length;i++)
     {
-    	var iniciales = xml.getElementsByTagName("marca").substring(0,2);
-    	pista = "Empieza por "+iniciales+"...";
+      if(preguntas[i].getAttribute('id') == actual)
+      {
+        pista = preguntas[i].childNodes[1].textContent;
+      }
     }
-    document.getElementById("pista").innerHTML = pista;
+    document.getElementById("pistaDiv").innerHTML = pista;
   }
 }
 
 function pedirPista()
 {
-  XMLHttpRequestObject.open("GET", "../xml/preguntas.xml");
+  XMLHttpRequestObject.open("GET", "../xml/Partida.xml");
   XMLHttpRequestObject.send(null);
 }

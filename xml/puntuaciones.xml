@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <puntuaciones>
-  <puntuacion user='endika'>8</puntuacion>
-</puntuaciones>
+  <puntuacion user="endika">8</puntuacion>
+  <puntuacion user="sergio">2</puntuacion>
+<puntuacion user="sergio">3</puntuacion></puntuaciones>

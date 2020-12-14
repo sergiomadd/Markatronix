@@ -11,8 +11,19 @@ body
 {
   background-color: lightblue;
 }
-
-
+table
+{
+  border: 1px solid black;
+  text-align: center;
+}
+th
+{
+  border: 1px solid black;
+}
+td
+{
+  border: 1px solid black;
+}
 
 /*JUGAR*/
 #imagen

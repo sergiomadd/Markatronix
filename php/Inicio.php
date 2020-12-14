@@ -21,8 +21,8 @@
 			<input type="button" class="boton" id="jugar" value="Jugar" onclick="redireccionar('Jugar.php')">
 			<input type="button" class="boton" id="pregunta" value="Añadir una pregunta" onclick="redireccionar('../html/AñadirPregunta.html')">
 			<br><br>
-			<input type="button" class="boton" id="verPreguntas" value="Ver Preguntas" onclick="redirect()">
-			<input type="button" class="boton" id="verPuntuaciones" value="Ver Puntuaciones" onclick="redirect()">
+			<input type="button" class="boton" id="verPreguntas" value="Ver Preguntas" onclick="redireccionar('VerPreguntas.php')">
+			<input type="button" class="boton" id="verPuntuaciones" value="Ver Puntuaciones" onclick="redireccionar('VerPuntuaciones.php')">
 		</div>
 		<div id="cerrar_sesion">
 			<input type="button" class="boton" id="cerrar" value="Cerrar sesion" onclick="cerrar_sesion()">

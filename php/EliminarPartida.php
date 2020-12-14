@@ -6,5 +6,6 @@
     unset($pregunta[0]);
   }
   $preguntasPartida['actual'] = "0";
+  $preguntasPartida['puntos'] = "0";
   $preguntasPartida->asXML('../xml/Partida.xml');
 ?>

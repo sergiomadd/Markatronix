@@ -1,19 +1,16 @@
 $(document).ready(function()
 {
-  console.log('ready');
-      cargarImagen();
-
+  cargarImagen();
 });
 
 function cargarImagen()
 {
-  console.log('cargando imagen');
   $.ajax({
      url : '../php/ActualizarImagen.php',
      type : 'POST',
      success : function (response)
      {
-        document.getElementById("imagenDiv").innerHTML = response;
+       document.getElementById("imagenDiv").innerHTML = response;
      },
      error : function ()
      {

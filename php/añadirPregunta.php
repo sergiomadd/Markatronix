@@ -2,17 +2,17 @@
   session_start();
   $id = 0;
   //Validar el formulario
-  //marca imagen
-  echo "hola";
+
   $formularioCorrecto = true;
-  if(!isset($_POST['marca']))
+  //if(!isset($_POST['marca']))
+  if($_POST['marca'] == "")
   {
     echo "La marca esta vacia.";
     $formularioCorrecto = false;
   }
-  if(!isset($_POST['pista']) && $formularioCorrecto)
+  else if($_POST['pista'] == "" && $formularioCorrecto)
   {
-    $pista = "Esta son las dos primeras letras de la marca" + substr($_POST['marca'],0,2);
+    $pista = "Empieza por: " . substr($_POST['marca'],0,2);
   }
   else
   {
@@ -38,6 +38,7 @@
       $id = $preguntas['ultimo'];
       $id = $id + 1;
       $pregunta->addAttribute('id', $id);
+      $pregunta->addAttribute('autor', $_SESSION['nombre']);
       $preguntas['ultimo'] = $id;
 
       $pregunta->addChild("marca", $_POST['marca']);
@@ -57,7 +58,6 @@
       echo "Error link mysql";
       die ("Fallo al conectar a la BD" . mysqli_connect_error());
     }
-    echo "Conectado correctamente";
 
     //Insertar en BD
     $insert = "INSERT INTO imagenes(id, imagen) VALUES ('$id', '$imagen')";
