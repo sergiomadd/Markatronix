@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<div class="container" style="width:800px; margin:0 auto;">
+		<div class="jumbotron">
 		<title>Añadir una pregunta</title>
 		<meta charset="UTF-8">
 		<h1>Añade una pregunta.</h1>
+	</div>
 		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script type="text/javascript" src="../js/AnadirPregunta.js"></script>
-		<link rel="stylesheet" href="../css/estilo.css">
+		<script type="text/javascript" src="../js/AñadirPregunta.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	</head>
 	<body>
 		<form id="formulario" enctype="multipart/form-data">
-			Nombre de la marca*:
-			<input type="text" id="marca" name="marca" required="true"><br><br>
-			Pista:
-			<input type="text" id="pista" name="pista"><br><br>
-			Imagen*:
+			<div class="form-group">
+				Nombre de la marca*:
+				<input type="text" id="marca" class="form-control" name="marca" required="true"><br><br>
+				Pista:
+				<input type="text" id="pista" class="form-control" name="pista"><br><br>
+			</div>
+			Imagen*: <br>
 			<input type="file" id="imagen" accept="image/*" name="imagen" required="true"><br><br>
-			Los campos en * son obligatorios. <br><br>
-  		<input type="button" id="enviar" value="Añadir">
-			<input type="button" id="inicio" name="inicio" value="Ir a Inicio" onclick="window.location='../php/Inicio.php'">
+				Los campos en * son obligatorios. <br><br>
+  		<input type="button" class="btn btn-danger" id="enviar" value="Añadir">
+			<input type="button" class="btn btn-danger"  id="inicio" name="inicio" value="Ir a Inicio" onclick="window.location='../php/Inicio.php'"><br>
 			<div id="insercion"></div>
+			</div>
 		</form>
 	</body>
 </html>
