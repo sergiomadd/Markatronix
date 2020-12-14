@@ -23,8 +23,8 @@
 			<input type="button" id="responder" class="btn btn-success" name="responder" value="Responder" onclick="validarRespuesta()"><br><br>
 			<div id="pistaDiv"></div><br><br>
 			<div id="respuestaDiv"></div>
-			Cuidado! Puede que la primera imagen no te cargue porque tu internet es rapidisimo! Prueba a pulsar aqui para recargar la imagen.
-			<input type="button" id="responder" class="btn btn-danger" name="recargar" value="recargar" onclick="cargarImagen()">
+			Cuidado! Puede que la primera imagen no te cargue porque tu internet es rapidisimo! Prueba a pulsar aqui para recargar la imagen.<br><br>
+			<input type="button" id="responder" class="btn btn-danger" name="recargar" value="Recargar" onclick="cargarImagen()">
 		</div>	
 	</div>
 	</body>

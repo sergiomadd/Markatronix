@@ -35,17 +35,17 @@
 		<div id="cerrar_sesion">
 			<input type="button" class="btn btn-danger"  id="cerrar" value="Cerrar sesion" onclick="cerrar_sesion()">
 		</div>
-		<div id="gestion_sesion">
+	    <div id="gestion_sesion">
 			<?php
 			if(isset($_SESSION['nombre'])){
 				echo"<script>sesion_iniciada();</script>";
-				echo"tu usuario es: ".$_SESSION['nombre'];
+				echo"Tu usuario es: ".$_SESSION['nombre'];
 			}
 			else{
 				echo"<script>sesion_cerrada();</script>";
 			}
 			?>
-		</div>
+		</div>	
 	</div>
 	</body>
 </html>
