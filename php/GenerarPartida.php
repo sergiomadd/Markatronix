@@ -1,4 +1,5 @@
 <?php
+session_start();
   function getNewId()
   {
     $preguntasPartida = simplexml_load_file("../xml/Partida.xml");
@@ -9,7 +10,7 @@
     shuffle($visitadas);
     $cont = 0;
     $id="0";
-    while($cont<$_SESSION['preguntas'])
+    while($cont<5)
     {
       $id = $visitadas[$cont];
       $pregunta = $preguntasPartida->addChild('pregunta');
@@ -23,7 +24,7 @@
         $preguntasPartida['actual'] = strval($id);
         $preguntasPartida['puntos'] = "0";
       }
-      elseif($cont == $_SESSION['preguntas']-1)
+      elseif($cont == 4)
       {
         $pregunta['puntos'] = "ultima";
       }

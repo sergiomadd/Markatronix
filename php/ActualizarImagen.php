@@ -2,7 +2,6 @@
   //Declaracion de variables
   $preguntasPartida = simplexml_load_file("../xml/Partida.xml");
   $idImagen = $preguntasPartida['actual'];
-  echo"<script>console.log(".$idImagen.")</script>";
   include 'DBConfig.php';
   $mysql = mysqli_connect($servername, $username, $password, $database);
   if(!$mysql)

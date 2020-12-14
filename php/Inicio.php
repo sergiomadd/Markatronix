@@ -22,7 +22,7 @@
 		</div>
 		<div class="btn-group">
 			<input type="button" class="btn btn-success"  id="jugar" value="Jugar" onclick="redireccionar('Jugar.php')">
-			<input type="button" class="btn btn-success"  id="pregunta" value="Añadir una pregunta" onclick="redireccionar('../html/AñadirPregunta.html')">
+			<input type="button" class="btn btn-success"  id="pregunta" value="Añadir una pregunta" onclick="redireccionar('../html/AnadirPregunta.html')">
 			
 
 		</div>
