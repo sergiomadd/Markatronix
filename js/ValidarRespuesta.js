@@ -2,7 +2,7 @@ var cont = 1;
 function validarRespuesta()
 {
   cont++;
-  var mpista;
+  var pistaUsada;
   if(document.getElementById("pistaDiv").innerHTML.length == 0)
   {
     pistaUsada = "no";

@@ -1,5 +1,9 @@
 <?php
   //Declaracion de variables
+  //Se usa xpath para conseguir el siguiente y devuelve un SimpleXMLObject
+  //SimpleXMLElement Object ( [@attributes] => Array ( [id] => 1 )
+  //[marca] => nike [pista] => SimpleXMLElement Object ( ) )
+  //Luego se accede al atributo
   $respuesta = $_REQUEST['respuesta'];
   $marca = "";
   $idImagen = "";
@@ -19,10 +23,6 @@
       if(strcmp($pregunta['puntos'], "ultima") != 0)
       {
         $nextPregunta = $pregunta->xpath('following-sibling::pregunta[1]')[0];
-        //Se usa xpath para conseguir el siguiente y devuelve un SimpleXMLObject
-        //SimpleXMLElement Object ( [@attributes] => Array ( [id] => 1 )
-        //[marca] => nike [pista] => SimpleXMLElement Object ( ) )
-        //Luego se accede al atributo
         $idNextImagen = $nextPregunta->attributes()->{'id'};
       }
     }
