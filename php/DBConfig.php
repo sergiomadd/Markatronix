@@ -1,10 +1,10 @@
 <?php
-$local=1; //0 para la nube
+$local=0; //0 para la nube
 if ($local==0){
     $servername="localhost";
-    $username="id14919795_sergio";
-    $password="istingorraKalea5?";
-    $database="id14919795_quiz";
+    $username="id14922398_endika";
+    $password="CEo0fFM711dPcTm%";
+    $database="id14922398_marcas";
 }
 else{
       $servername="localhost";

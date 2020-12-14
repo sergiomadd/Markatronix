@@ -7,6 +7,6 @@ function actualizarPuntuacion(respuesta)
           }
       }
       console.log(nombre);
-      xmlhttp.open("POST","../php/actualizarPuntuacion.php",true);
+      xmlhttp.open("POST","../php/ActualizarPuntuacion.php",true);
       xmlhttp.send("?respuesta="+respuesta);
 }

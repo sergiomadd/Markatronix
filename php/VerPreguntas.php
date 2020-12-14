@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<link rel="stylesheet" href="../css/estilo.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
+  <div class="container" style="width:800px; margin:0 auto;">
+    <div class="jumbotron" >
+  <h1>Preguntas almacenadas</h1>
+</div>
   <section class="main" id="s1">
-    <input type="button" id="inicio" name="inicio" value="Ir a Inicio" onclick="window.location='Inicio.php'"><br>
-    <div>
+    <input type="button" id="inicio" class="btn btn-primary" name="inicio" value="Ir a Inicio" onclick="window.location='Inicio.php'"><br>
       <?php
-      include '../php/DbConfig.php';
+      include '../php/DBConfig.php';
       $link = mysqli_connect($servername, $username, $password, $database);
       $preguntasPartida = simplexml_load_file("../xml/Preguntas.xml");
-      echo '<table>';
+      echo '<table class="table table-hover">';
       echo "<tr><th> Marca </th><th> Respuesta Correcta </th><th> Pista </th><th> Autor </th></tr>";
       foreach($preguntasPartida->pregunta as $pregunta)
       {
@@ -29,6 +32,7 @@
       echo"<br>";
       ?>
     </div>
+
   </section>
 </body>
 </html>

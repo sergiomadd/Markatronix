@@ -11,7 +11,7 @@ function validarRespuesta()
   {
     pistaUsada = "si";
   }
-  console.log(mpista);
+  console.log(pistaUsada);
   $.ajax({
      url : '../php/VerificarRespuesta.php',
      type : 'POST',

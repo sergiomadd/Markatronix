@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntas ultimo="15">
+  <pregunta id="1">
+    <marca>windows</marca>
+    <pista>Empieza por: wi</pista>
+  </pregunta>
+  <pregunta id="2">
+    <marca>apple</marca>
+    <pista>Empieza por: ap</pista>
+  </pregunta>
+  <pregunta id="3">
+    <marca>amazon</marca>
+    <pista>Empieza por: am</pista>
+  </pregunta>
+  <pregunta id="4">
+    <marca>adidas</marca>
+    <pista>Empieza por: ad</pista>
+  </pregunta>
+  <pregunta id="5">
+    <marca>android</marca>
+    <pista>Empieza por: an</pista>
+  </pregunta>
+  <pregunta id="6">
+    <marca>spotify</marca>
+    <pista>Empieza por: sp</pista>
+  </pregunta>
+  <pregunta id="7">
+    <marca>facebook</marca>
+    <pista>Empieza por: fa</pista>
+  </pregunta>
+  <pregunta id="8">
+    <marca>starbucks</marca>
+    <pista>Empieza por: st</pista>
+  </pregunta>
+  <pregunta id="9">
+    <marca>google</marca>
+    <pista>Empieza por: go</pista>
+  </pregunta>
+  <pregunta id="10">
+    <marca>nike</marca>
+    <pista>Empieza por: ni</pista>
+  </pregunta>
+  <pregunta id="11">
+    <marca>mastercard</marca>
+    <pista>Empieza por: ma</pista>
+  </pregunta>
+  <pregunta id="12">
+    <marca>mercedes</marca>
+    <pista>Empieza por: me</pista>
+  </pregunta>
+  <pregunta id="13">
+    <marca>playstation</marca>
+    <pista>Empieza por: pl</pista>
+  </pregunta>
+  <pregunta id="14">
+    <marca>shell</marca>
+    <pista>Empieza por: sh</pista>
+  </pregunta>
+  <pregunta id="15">
+    <marca>tesla</marca>
+    <pista>Empieza por: te</pista>
+  </pregunta>
+</preguntas>
